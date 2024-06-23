@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    transition: all 0.7s;
+}
+
+.General{
+    min-width: 800px;
+    height: 100vh;
+}
+
+b {
+    color: #d8b400;
+}
+
+/* SECTION 1 */
+
+.Section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 300px 0 0;
+    background-color: #00003d;
+    height: 70vh;
+}
+
+.BackgroundImage{
+    background-color: #d8b400;
+    height: 100%;
+    width: 40%;
+    position: relative;
+}
+
+.PersonImage{
+    max-width: 65%;
+    position: absolute;
+    right: -137px;
+    bottom: 0;
+}
+
+.MainSec1{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 25px;
+    border-top: solid 3px #d8b400;
+    padding-top: 20px;
+}
+
+.H1Sec1{
+    color: white;
+    font-size: 35px;
+    width: 300px;
+}
+
+.PSec1{
+    color: #e4e4e4;
+}
+
+.ButtonSec1{
+    height: 35px;
+    width: 95px;
+    background-color: #d8b400;
+    font-weight: 600;
+    border: none;
+}
+
+
+
+/* SECTION 2 */
+
+.Section2{
+    background-color: #000021;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    padding: 70px 90px;
+    justify-content: space-around;
+}
+
+.Span1Sec2{
+    display: flex;
+    flex-direction: column;
+    width: 525px;
+}
+
+.TitleSpan1{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.TextSec2{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.DivSpanSec2{
+    display: flex;
+    gap: 15px;
+}
+
+.TextSpanSec2{
+    color: #cecece;
+    font-size: 15px;
+    width: 100%;
+}
+
+.Span2Sec2{
+    width: 300px;
+}
+
+.TitleSpan2{
+    color: #d8b400;
+    margin-bottom: 20px;
+}
+
+.TextSpan2Sec2{
+    color: #cecece;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.IconsSpan2{
+    display: flex;
+    gap: 15px;
+}
+
+.SocialIcon{
+    font-size: 20px;
+    background-color: #d8b400;
+    border-radius: 50px;
+    padding: 5px;
+    cursor: pointer;
+}
+.SocialIcon:hover{
+    transform: scale(1.3);
+}
+
+/* SECTION 3 */
+
+.Section3{
+    background-color: #00002f;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Main1Sec3{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 70px;
+}
+
+.ContainerWork{
+    background-color: #000041;
+    width: 250px;
+    padding: 85px 8px 35px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ImageWork{
+    max-width: 30%;
+}
+
+.WorkTitle{
+    color: #d8b400;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.WorkLorem{
+    color: #cecece;
+    font-size: 15px;
+}
+
+.Main2Sec3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8b400;
+    padding: 50px;
+    width: 55%;
+    border-radius: 8px;
+}
+
+.TitleFreelancer{
+    font-weight: 900;
+}
+
+.FreelancerDesc{
+    font-weight: 500;
+}
+
+.ButtonPedido{
+    color: #d8b400;
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.ButtonPedido:hover{
+    opacity: 0.8;
+    transform: translateY(-5px);
+}
+
+.Zap{
+    font-size: 30px;
+    color: #e6ff00;
+}
+
+
+/* SECTION 4 */
+
+.Section4{
+    background-color: #00002a;
+    min-height: 90%;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TitlePortfolio{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.ContainerProjects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.Project{
+    margin-top: 25px;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.Project:hover{
+    transform: scale(1.05);
+    transform: translateY(-10px);
+}
+
+.Pdesc{
+    height: 100%;
+    background-color: #000000a1;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Pdesc:hover{
+    opacity: 1;
+}
+
+.DescriptionDesc{
+    color: white;
+    z-index: 2;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.ProjectImage{
+    height: 100%;
+    width: 100%;
+}
